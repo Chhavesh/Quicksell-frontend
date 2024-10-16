@@ -1,0 +1,29 @@
+.container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-details {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.25rem 0rem;
+    align-items: center;
+  }
+  
+  .options {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .available {
+    background: gold;
+  }
+  
+  .card-subheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  

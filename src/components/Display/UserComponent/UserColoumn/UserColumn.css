@@ -1,0 +1,52 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.25rem 0rem;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.c-avatar {
+  position: relative;
+  display: inline-block;
+}
+.c-avatar__image {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.c-avatar__status {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #d3d3d3;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  border-radius: 100%;
+}
+
+.available {
+  background: gold;
+}
+
+.card-subheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ticket-list {
+}
