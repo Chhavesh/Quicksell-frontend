@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 // import UserCard from './components/UserCard/UserCard.jsx';
-import Display from './components/Display/Content.jsx';
+import Display from './components/Content/Content.jsx';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {

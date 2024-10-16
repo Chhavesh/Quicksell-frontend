@@ -32,7 +32,7 @@ function Card({
           <div className="c-avatar">
             <img
               className="c-avatar__image"
-              src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              src="Userphoto.jpg"
               alt=""
             ></img>
             <span

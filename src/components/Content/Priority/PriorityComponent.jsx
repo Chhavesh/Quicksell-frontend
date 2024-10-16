@@ -1,5 +1,5 @@
 import React from 'react'
-import PriorityColumn from './PriorityColumn/PriorityColumn';
+import PriorityColumn from './Pcolumn/PriorityColumn.jsx';
 
 function PriorityComponent({users, tickets}) {
   const no_priority = tickets.filter((ticket) => (ticket.priority === 0));

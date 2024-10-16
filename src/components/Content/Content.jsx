@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Content.css";
-import PriorityComponent from "./PriorityComponent/PriorityComponent";
-import UserComponent from "./UserComponent/UserComponent";
-import StatusComponent from "./StatusComponent/StatusComponent";
+import PriorityComponent from "./Priority/PriorityComponent.jsx";
+import UserComponent from "./User/UserComponent.jsx";
+import StatusComponent from "./Status/StatusComponent.jsx";
 
 function Display({ groupBy, sortBy }) {
   const [users, setUsers] = useState([]);
